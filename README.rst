@@ -1,6 +1,6 @@
-============
-pyxform v0.9
-============
+==============
+pyxform v0.92
+==============
 
 .. image:: https://travis-ci.org/XLSForm/pyxform.svg?branch=master
     :target: https://travis-ci.org/XLSForm/pyxform
