@@ -162,7 +162,7 @@ class XFormToDict:
     def __init__(self, root):
         if isinstance(root, basestring):
             parser = etree.XMLParser(remove_comments=True)
-            if os.path.exists(root):
+            if len(root) < 255 and os.path.exists(root):
                 self._root = etree.parse(root, parser=parser).getroot()
             else:
                 self._root = etree.fromstring(root, parser)
